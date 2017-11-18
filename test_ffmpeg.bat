@@ -1,0 +1,1 @@
+ffmpeg -re -stream_loop -1 -i big_buck_bunny_480p_h264.mov -vcodec copy -acodec copy -f flv rtsp://192.168.116.32/live/big_buck_bunny
